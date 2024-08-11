@@ -163,7 +163,8 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2024-08-11 at 15 17 37_d7855597](https://github.com/user-attachments/assets/ffd94e37-c2e3-4d31-a9c3-5049f19df71c)
+![image](https://github.com/user-attachments/assets/c51ac3af-5d35-4445-bcf3-5b1bc413a436)
+
 
 
 
@@ -183,7 +184,8 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2024-08-11 at 15 21 27_66b3b454](https://github.com/user-attachments/assets/bdbb56c0-6ea6-42b0-a81d-b7cd90d0fb09)
+![image](https://github.com/user-attachments/assets/18e33eb0-2ac8-4aaf-b638-18eca5a2d8af)
+
 
 
 ### viii) RGB and BGR to YCrCb
@@ -201,7 +203,7 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2024-08-11 at 15 23 13_119d7bfe](https://github.com/user-attachments/assets/cc3be811-f747-4f9d-bf69-bdb8ffdf53f6)
+![image](https://github.com/user-attachments/assets/b7f96e20-f428-49de-b5d0-eb4026c81d5c)
 
 
 
@@ -223,7 +225,8 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2024-08-11 at 15 26 32_a96a11fa](https://github.com/user-attachments/assets/9c233095-190f-4093-ac0d-d0d115601179)
+![image](https://github.com/user-attachments/assets/5b78a1b4-5956-4da9-93ad-6911864d373e)
+
 
 
 
@@ -244,7 +247,8 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![WhatsApp Image 2024-08-11 at 15 29 31_727ba7f6](https://github.com/user-attachments/assets/74bb222b-9cc6-4ba7-bddf-46c4d04c78aa)
+![image](https://github.com/user-attachments/assets/36afd9e3-ecd8-4e65-aa26-41d16425b93a)
+
 
 
 
