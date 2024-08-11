@@ -147,7 +147,7 @@ Anaconda - Python 3.7
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
 import cv2
-img = cv2.imread('ykimg1.jpg',1)
+img = cv2.imread('tiger.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -208,7 +208,7 @@ cv2.destroyAllWindows()
 ### ix) Split and merge RGB Image
 ```Python
 import cv2
-img = cv2.imread('ykimg1.jpg',1)
+img = cv2.imread('tiger.jpg',1)
 img = cv2.resize(img,(300,200))
 R = img[:,:,2]
 G = img[:,:,1]
@@ -230,7 +230,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```Python
 import cv2
-img = cv2.imread("ykimg1.jpg",1)
+img = cv2.imread("tiger.jpg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 H,S,V=cv2.split(img)
