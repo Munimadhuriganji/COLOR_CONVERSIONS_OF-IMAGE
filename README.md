@@ -37,7 +37,7 @@ Anaconda - Python 3.7
 ### i) Read and display the image
 ```Python
     import cv2
-    image=cv2.imread('tiger.jpg')
+    image=cv2.imread('photo.jpg')
     image=cv2.resize(image,(400,300))
     cv2.imshow('Image Window',image)
     cv2.waitKey(0)
@@ -47,7 +47,8 @@ Anaconda - Python 3.7
   <td>
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/57128fc4-9e51-4ef9-a3b0-7774edd09d43)
+![image](https://github.com/user-attachments/assets/a98b0b9e-cd03-4682-beb0-e7991d0d2bef)
+
 
 
 
@@ -60,14 +61,14 @@ Anaconda - Python 3.7
 ### ii)Write the image
 ```Python
     import cv2
-    image=cv2.imread('tiger.jpg',0)
+    image=cv2.imread('photo.jpg',0)
     cv2.imwrite('demos.jpg',image)
 ```
   </td>
   <td>
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/9501b085-a323-4f50-907f-63a486a92b07)
+![image](https://github.com/user-attachments/assets/5d2abca0-65db-46e1-a17d-776bb8a8895b)
 
 
 
@@ -79,14 +80,15 @@ Anaconda - Python 3.7
 ### iii)Shape of the Image
 ```Python
     import cv2
-    image=cv2.imread('tiger.jpg',1)
+    image=cv2.imread('photo.jpg',1)
     print(image.shape)
 ```
   </td>
   <td>
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/02895b0c-6bf1-4b26-aa4d-2964d4f5fb97)
+![image](https://github.com/user-attachments/assets/6e31ce9e-41ff-4f66-bc51-54dac2b09147)
+
 
 
   </td>
@@ -98,7 +100,7 @@ Anaconda - Python 3.7
 ```Python
     import random
     import cv2
-    image=cv2.imread('tiger.jpg',1)
+    image=cv2.imread('photo.jpg',1)
     image=cv2.resize(image,(400,400))
     for i in range (150,200):
       for j in range(image.shape[1]):
@@ -113,7 +115,7 @@ Anaconda - Python 3.7
   <td width="50%">
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/350d647a-1cb0-4e1a-ac3b-f88dfc589cd4)
+![image](https://github.com/user-attachments/assets/9c743ac9-dc74-4700-98c3-450e17b7c082)
 
 
   </td>
@@ -125,7 +127,7 @@ Anaconda - Python 3.7
 
  ```Python
     import cv2
-    image=cv2.imread('tiger.jpg',1)
+    image=cv2.imread('photo.jpg',1)
     image=cv2.resize(image,(400,400))
     tag =image[130:200,110:190]
     image[110:180,120:200] = tag
@@ -137,7 +139,8 @@ Anaconda - Python 3.7
   <td>
     
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/203ec5f2-200e-44a9-975b-384bb0edc35c)
+![image](https://github.com/user-attachments/assets/e241a756-1dc5-4ab5-84b1-bfeb731bc1f1)
+
 
 
   </td>
@@ -147,7 +150,7 @@ Anaconda - Python 3.7
 ### vi) BGR and RGB to HSV and GRAY
 ```Python
 import cv2
-img = cv2.imread('tiger.jpg',1)
+img = cv2.imread('photo.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -163,7 +166,7 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/c51ac3af-5d35-4445-bcf3-5b1bc413a436)
+![image](https://github.com/user-attachments/assets/4168991e-f144-4dd8-a4f4-deae88cf1328)
 
 
 
@@ -171,7 +174,7 @@ cv2.destroyAllWindows()
 ### vii) HSV to RGB and BGR
 ```Python
 import cv2
-img = cv2.imread('tiger.jpg')
+img = cv2.imread('photo.jpg')
 img = cv2.resize(img,(300,200))
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 cv2.imshow('Original HSV Image',img)
@@ -184,14 +187,15 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/18e33eb0-2ac8-4aaf-b638-18eca5a2d8af)
+![image](https://github.com/user-attachments/assets/af8f95cc-5e09-42aa-bf29-4b1f720abf64)
+
 
 
 
 ### viii) RGB and BGR to YCrCb
 ```Python
 import cv2
-img = cv2.imread('tiger.jpg')
+img = cv2.imread('photo.jpg')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
@@ -203,14 +207,14 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/b7f96e20-f428-49de-b5d0-eb4026c81d5c)
+![image](https://github.com/user-attachments/assets/f05e7e4c-7bcd-4c4c-b29f-ca389c2a8870)
 
 
 
 ### ix) Split and merge RGB Image
 ```Python
 import cv2
-img = cv2.imread('tiger.jpg',1)
+img = cv2.imread('photo.jpg',1)
 img = cv2.resize(img,(300,200))
 R = img[:,:,2]
 G = img[:,:,1]
@@ -225,7 +229,7 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/5b78a1b4-5956-4da9-93ad-6911864d373e)
+![image](https://github.com/user-attachments/assets/fddf8c78-cdd3-45d7-b62a-8473518bc35f)
 
 
 
@@ -233,7 +237,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```Python
 import cv2
-img = cv2.imread("tiger.jpg",1)
+img = cv2.imread("photo.jpg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 H,S,V=cv2.split(img)
@@ -247,8 +251,7 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/36afd9e3-ecd8-4e65-aa26-41d16425b93a)
-
+![image](https://github.com/user-attachments/assets/6fc9cef6-7652-491e-ad41-341f8ce3c8ab)
 
 
 
